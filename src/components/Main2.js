@@ -6,7 +6,7 @@ const Main2 = () => {
     useEffect(() => {
       axios.get('http://localhost:5000/api/data')
         .then(response => {
-          console.log(response.data)
+          // console.log(response.data)
           setData(response.data);
         })
         .catch(error => {
