@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: antiquewhite;
 }
 
 .App-logo {
@@ -18,15 +19,111 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: end;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
+
+.imageuni {
+  width: 130px; /* Set the desired width */
+  height: 10px;
+   /* Maintain aspect ratio */
+  image-rendering: crisp-edges;
+ 
+  
+}
+.shifting{
+  justify-content: center;
+  align-items:end;
+  height: 100vh;
+  max-width: 100%; /* Ensure the image doesn't exceed its container */
+  max-height: 100%;
+
+}
+.centeredImage{  
+  max-width: 100%; /* Ensure the image doesn't exceed its container */
+  max-height: 100%;
+}
+
 .App-link {
   color: #61dafb;
 }
+.navbar-links-container{
+  margin-right: 3rem;
+  display: flex;
+  text-decoration: none;
+  color: black;
+  font-size: 1.1rem;
+  font-weight: 600;
+  list-style-type: none;
+ margin: 0;
+ padding: 0;
+
+
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff; /* Navbar background color */
+  padding: 10px 20px; /* Adjust padding as needed */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for a raised effect */
+}
+.primary-button {
+  padding: 0.9rem 1.75rem;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 5rem;
+  font-size: 1.1rem;
+  cursor: pointer;;
+  font-weight: 600;
+  transition: 0.2s;
+  
+  
+}
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-container h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.about-container h3 {
+  font-size: 1.5rem;
+  color: #666;
+  margin-top: 30px;
+}
+
+.about-container p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+.about-container ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.about-container li {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+
 
 @keyframes App-logo-spin {
   from {

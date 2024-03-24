@@ -1,0 +1,10 @@
+.home-container{
+    padding-top: 1px;
+    margin-top:50px;
+       
+}
+
+.imageuni {
+    width: 10px; /* Set the desired width */
+    height: 10px; /* Maintain aspect ratio */
+}
